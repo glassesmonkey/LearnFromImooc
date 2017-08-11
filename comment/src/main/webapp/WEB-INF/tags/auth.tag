@@ -7,9 +7,9 @@
 <%@ attribute type="String" name="url" required="true" %>
 <%@ attribute type="String" name="method" %>
 
-<%-- if(CommonUtil.contains(session, url, method)) { --%>
-	<!--<jsp:doBody/>-->  
-<%-- } --%>
-<% if(CommonUtil.contains( url)) { %>
+<%if(CommonUtil.contains(session, url, method)) {%>
 	<jsp:doBody/>
-<% } %>
+<%}%>
+<%-- <% if(CommonUtil.contains( url)) { %>
+	<jsp:doBody/>
+<% } %> --%>

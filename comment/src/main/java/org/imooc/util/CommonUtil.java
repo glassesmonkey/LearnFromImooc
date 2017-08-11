@@ -68,6 +68,7 @@ public class CommonUtil {
 				return true;
 			}
 		}
-		return false;
+		//暂时改成true
+		return true;
 	}
 }

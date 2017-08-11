@@ -22,6 +22,7 @@ public class SessionInterceptor implements HandlerInterceptor{
 		}
 		request.getRequestDispatcher("/login/sessionTimeout").forward(request, response);
 		// TODO Auto-generated method stub
+		
 		return false;
 	}
 	/**

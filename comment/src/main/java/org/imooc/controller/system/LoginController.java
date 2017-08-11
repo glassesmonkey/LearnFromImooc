@@ -45,7 +45,7 @@ public class LoginController {
 			GroupDto groupDto = groupService.getByIdWithMenuAction(userDto.getGroupId());
 			session.setAttribute(SessionKeyConst.MENU_INFO,groupDto.getMenuDtoList());
 			session.setAttribute(SessionKeyConst.ACTION_INFO, groupDto.getActionDtoList());
-			return "redirect:/auth";
+			return "redirect:/index";
 		}
 		attr.addFlashAttribute(PageCodeEnum.KEY, PageCodeEnum.LOGIN_FAIL);
 		return "redirect:/login";

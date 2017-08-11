@@ -105,7 +105,7 @@
 		        </table>
 		    </div>
 		    <div id="footer">
-		        <div class="copyright">慕课网</div>
+		        <div class="copyright">自制</div>
 		        <div class="flr">copyright &copy;</div>
 		    </div>
 		</form>
