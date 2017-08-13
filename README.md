@@ -10,3 +10,8 @@ A project buy from imooc
 ------2017.08.10---------<br/>
 -zTree因为我目前js还不会，所以暂时屏蔽该功能。等日后学习了js再来做。作为TODO项。
 -目前版本为不带ztree和echarts的版本
+<br/>结果图：
+![image](https://github.com/glassesmonkey/LearnFromImooc/blob/master/srceenshot/index.png)
+![image](https://github.com/glassesmonkey/LearnFromImooc/blob/master/srceenshot/modify.png)
+![image](https://github.com/glassesmonkey/LearnFromImooc/blob/master/srceenshot/add.png)
+![image](https://github.com/glassesmonkey/LearnFromImooc/blob/master/srceenshot/list.png)
